@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About Alex"
+title: "About the Author"
 author: "Alex Pakalniskis"
 categories: journal
 tags: [introduction,blog]
