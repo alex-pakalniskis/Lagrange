@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_plus_map
 title: Welcome
 
 ---
