@@ -10,5 +10,3 @@ image: profile.png
 
 I'm Alex, a geographer-turned-data scientist and member of the DS13 cohort at Lambda School. Here I'll be posting data science projects and sharing some of the insights I gain as I pivot to a career in tech. Tag along for the ride.
 
-
-<iframe src="https://nbviewer.jupyter.org/github/alex-pakalniskis/alex-pakalniskis.github.io/blob/gh-pages/assets/html/experience_map.html" width="100%" height=400>
