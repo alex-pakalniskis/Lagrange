@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_02867335ee4b4797b133cc7fadf55ca4 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_02867335ee4b4797b133cc7fadf55ca4" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_02867335ee4b4797b133cc7fadf55ca4 = L.map(
+        'map_02867335ee4b4797b133cc7fadf55ca4', {
+        center: [30.080993714285714, -100.23134499999999],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+L.control.scale().addTo(map_02867335ee4b4797b133cc7fadf55ca4);
+
+    
+    var tile_layer_90cc9d6d3df94de79d2c37c2cf5a8420 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_02867335ee4b4797b133cc7fadf55ca4);
+    
+            var marker_cluster_80933365da1b4480b82aafa2079362b4 = L.markerClusterGroup({});
+            map_02867335ee4b4797b133cc7fadf55ca4.addLayer(marker_cluster_80933365da1b4480b82aafa2079362b4);
+            
+    
+        var marker_2a48a6709fee44acb6d1919ce4161317 = L.marker(
+            [34.017315999999994, -118.472072],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_d52647701d2c41c8bff5c82849820d85 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a0bd5a5f776d44739a593fce4bf2d7a1 = $(`<div id="html_a0bd5a5f776d44739a593fce4bf2d7a1" style="width: 100.0%; height: 100.0%;"><strong>IGETC at Santa Monica College</strong><br><em>2009 to 2011</em></div>`)[0];
+                popup_d52647701d2c41c8bff5c82849820d85.setContent(html_a0bd5a5f776d44739a593fce4bf2d7a1);
+            
+
+            marker_2a48a6709fee44acb6d1919ce4161317.bindPopup(popup_d52647701d2c41c8bff5c82849820d85)
+            ;
+
+            
+        
+    
+        var marker_377c5d8095d947338afde310ddec0eb6 = L.marker(
+            [34.069179, -118.44161899999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_1d33e71338ff4fd7a25193d40a852f05 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_40a08fce9cfe4b07b2547b06de2213ed = $(`<div id="html_40a08fce9cfe4b07b2547b06de2213ed" style="width: 100.0%; height: 100.0%;"><strong>BS in Biochemistry at UCLA</strong><br><em>2011 to 2014</em></div>`)[0];
+                popup_1d33e71338ff4fd7a25193d40a852f05.setContent(html_40a08fce9cfe4b07b2547b06de2213ed);
+            
+
+            marker_377c5d8095d947338afde310ddec0eb6.bindPopup(popup_1d33e71338ff4fd7a25193d40a852f05)
+            ;
+
+            
+        
+    
+        var marker_84f600ff84e9421790b4d9e603cd9458 = L.marker(
+            [33.778883, -118.11271200000002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_d066dcdc45c844b18c0a2628f1669e23 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bff8639fe9274ac1949999c617ea132e = $(`<div id="html_bff8639fe9274ac1949999c617ea132e" style="width: 100.0%; height: 100.0%;"><strong>MA in Geography at CSULB</strong><br><em>2015 to 2019</em></div>`)[0];
+                popup_d066dcdc45c844b18c0a2628f1669e23.setContent(html_bff8639fe9274ac1949999c617ea132e);
+            
+
+            marker_84f600ff84e9421790b4d9e603cd9458.bindPopup(popup_d066dcdc45c844b18c0a2628f1669e23)
+            ;
+
+            
+        
+    
+        var marker_a8f7aacb45ab4d31bf2cd9a70ea7ba97 = L.marker(
+            [33.436167, -118.50588300000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_d333ee7084084d37a4167832c6acde90 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e4d8dcea8d934e8a956a813faf01e246 = $(`<div id="html_e4d8dcea8d934e8a956a813faf01e246" style="width: 100.0%; height: 100.0%;"><strong>Disturbance ecology field work on Catalina Island</strong><br><em>Fall 2015 to Fall 2015</em></div>`)[0];
+                popup_d333ee7084084d37a4167832c6acde90.setContent(html_e4d8dcea8d934e8a956a813faf01e246);
+            
+
+            marker_a8f7aacb45ab4d31bf2cd9a70ea7ba97.bindPopup(popup_d333ee7084084d37a4167832c6acde90)
+            ;
+
+            
+        
+    
+        var marker_742606bf650b4c2985d93d1c3641a01e = L.marker(
+            [33.778683, -118.11271200000002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_b4f371c2fc414392ab9be11fc11b5882 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_518cc828d6e04408808892cf0bca8605 = $(`<div id="html_518cc828d6e04408808892cf0bca8605" style="width: 100.0%; height: 100.0%;"><strong>Graduate research assistant for Dr. Paul Laris</strong><br><em>August 2015 to May 2018</em></div>`)[0];
+                popup_b4f371c2fc414392ab9be11fc11b5882.setContent(html_518cc828d6e04408808892cf0bca8605);
+            
+
+            marker_742606bf650b4c2985d93d1c3641a01e.bindPopup(popup_b4f371c2fc414392ab9be11fc11b5882)
+            ;
+
+            
+        
+    
+        var marker_8b9dc02ad8b74bfe952eed1a58eda4ad = L.marker(
+            [33.778683, -118.11301200000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_a3a20d56f2d04bc2bfd0f8b61e8f137e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_caf32a2569b1462bb7dab4826c94a274 = $(`<div id="html_caf32a2569b1462bb7dab4826c94a274" style="width: 100.0%; height: 100.0%;"><strong>Geography computer lab tech for CSULB Geography</strong><br><em>August 2015 to December 2016</em></div>`)[0];
+                popup_a3a20d56f2d04bc2bfd0f8b61e8f137e.setContent(html_caf32a2569b1462bb7dab4826c94a274);
+            
+
+            marker_8b9dc02ad8b74bfe952eed1a58eda4ad.bindPopup(popup_a3a20d56f2d04bc2bfd0f8b61e8f137e)
+            ;
+
+            
+        
+    
+        var marker_97a7a39cbb274aceb926b0428b30bae5 = L.marker(
+            [34.007958, -118.489301],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_a79246c8e1ef4601a5badd0c97369e51 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2c74ad4a9b84bf9adffb950fcc00e80 = $(`<div id="html_a2c74ad4a9b84bf9adffb950fcc00e80" style="width: 100.0%; height: 100.0%;"><strong>GIS Internship at City of Santa Monica</strong><br><em>April 2016 to December 2016</em></div>`)[0];
+                popup_a79246c8e1ef4601a5badd0c97369e51.setContent(html_a2c74ad4a9b84bf9adffb950fcc00e80);
+            
+
+            marker_97a7a39cbb274aceb926b0428b30bae5.bindPopup(popup_a79246c8e1ef4601a5badd0c97369e51)
+            ;
+
+            
+        
+    
+        var marker_eac0d2efb2f345fab48e4535d75e1ced = L.marker(
+            [32.232593, -110.94566999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_79bf32c85797447ea2d6263a6cb23a42 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7954dcc7dff3429fb8f56406d67d214d = $(`<div id="html_7954dcc7dff3429fb8f56406d67d214d" style="width: 100.0%; height: 100.0%;"><strong>Graduate teaching assistant for Dr. Tom Evans</strong><br><em>August 2018 to December 2018</em></div>`)[0];
+                popup_79bf32c85797447ea2d6263a6cb23a42.setContent(html_7954dcc7dff3429fb8f56406d67d214d);
+            
+
+            marker_eac0d2efb2f345fab48e4535d75e1ced.bindPopup(popup_79bf32c85797447ea2d6263a6cb23a42)
+            ;
+
+            
+        
+    
+        var marker_ebaad8986e1647edbdec23c7c11e1e1c = L.marker(
+            [32.229949, -110.956216],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_2f9bc4defa8d40348bf7352601afd09a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d7690aca70b84799986a60969d8b510b = $(`<div id="html_d7690aca70b84799986a60969d8b510b" style="width: 100.0%; height: 100.0%;"><strong>Graduate teaching assistant for Dr. Greg Barron-Gafford</strong><br><em>January 2019 to May 2019</em></div>`)[0];
+                popup_2f9bc4defa8d40348bf7352601afd09a.setContent(html_d7690aca70b84799986a60969d8b510b);
+            
+
+            marker_ebaad8986e1647edbdec23c7c11e1e1c.bindPopup(popup_2f9bc4defa8d40348bf7352601afd09a)
+            ;
+
+            
+        
+    
+        var marker_c1f21126db5d4fc1ac6eac0949268598 = L.marker(
+            [32.228128000000005, -110.955106],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_c03187a54e264ad7a010b9a2085d7d58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0a06a4fd75914d16b2c2f67c06186da6 = $(`<div id="html_0a06a4fd75914d16b2c2f67c06186da6" style="width: 100.0%; height: 100.0%;"><strong>Graduate research assistant for Dr. Tom Evans</strong><br><em>May 2019 to October 2019</em></div>`)[0];
+                popup_c03187a54e264ad7a010b9a2085d7d58.setContent(html_0a06a4fd75914d16b2c2f67c06186da6);
+            
+
+            marker_c1f21126db5d4fc1ac6eac0949268598.bindPopup(popup_c03187a54e264ad7a010b9a2085d7d58)
+            ;
+
+            
+        
+    
+        var marker_3c0e2437fca148c683ae9bb8f27154bc = L.marker(
+            [21.569460999999997, -158.23167800000002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_a65cf009d11c43ddbb0c31a134faf189 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9efe76fa16b240aebeb2a2596b1e268b = $(`<div id="html_9efe76fa16b240aebeb2a2596b1e268b" style="width: 100.0%; height: 100.0%;"><strong>Restoration ecology field work in North Shore, Oahu</strong><br><em>January 2015 to January 2015</em></div>`)[0];
+                popup_a65cf009d11c43ddbb0c31a134faf189.setContent(html_9efe76fa16b240aebeb2a2596b1e268b);
+            
+
+            marker_3c0e2437fca148c683ae9bb8f27154bc.bindPopup(popup_a65cf009d11c43ddbb0c31a134faf189)
+            ;
+
+            
+        
+    
+        var marker_72ec10eeea2b48c5ada70a36ef269b80 = L.marker(
+            [34.099658000000005, -118.97979699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_5b85b4942ed54c75b0d0918a6273db1b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d38dd78dcfb146dc84609bae414ae520 = $(`<div id="html_d38dd78dcfb146dc84609bae414ae520" style="width: 100.0%; height: 100.0%;"><strong>UAV remote sensing field work in Serrano Valley</strong><br><em>June 2016 to June 2017</em></div>`)[0];
+                popup_5b85b4942ed54c75b0d0918a6273db1b.setContent(html_d38dd78dcfb146dc84609bae414ae520);
+            
+
+            marker_72ec10eeea2b48c5ada70a36ef269b80.bindPopup(popup_5b85b4942ed54c75b0d0918a6273db1b)
+            ;
+
+            
+        
+    
+        var marker_9fbee272216a4b9795bd5eb0659e5331 = L.marker(
+            [12.349065, -8.401539999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_ddf706d281284ddfa6c79f75505306a5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e4f52b31e721428492a27452a9e116dd = $(`<div id="html_e4f52b31e721428492a27452a9e116dd" style="width: 100.0%; height: 100.0%;"><strong>Fire ecology field work outside Tabou</strong><br><em>Summer 2016, Winter 2017 and 2018 to Summer 2016, Winter 2017 and 2018</em></div>`)[0];
+                popup_ddf706d281284ddfa6c79f75505306a5.setContent(html_e4f52b31e721428492a27452a9e116dd);
+            
+
+            marker_9fbee272216a4b9795bd5eb0659e5331.bindPopup(popup_ddf706d281284ddfa6c79f75505306a5)
+            ;
+
+            
+        
+    
+        var marker_f0bed47d74a84fa4a92f1c890dc55939 = L.marker(
+            [34.013251000000004, -118.46954099999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_49693d76399443bbad9b89b74bbf6140 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_42072389da944462ac195e674c419025 = $(`<div id="html_42072389da944462ac195e674c419025" style="width: 100.0%; height: 100.0%;"><strong>AVID Tutor at John Adams Middle School</strong><br><em>February 2015 to June 2015</em></div>`)[0];
+                popup_49693d76399443bbad9b89b74bbf6140.setContent(html_42072389da944462ac195e674c419025);
+            
+
+            marker_f0bed47d74a84fa4a92f1c890dc55939.bindPopup(popup_49693d76399443bbad9b89b74bbf6140)
+            ;
+
+            
+        
+    
+        var marker_f961989f4e1a44abb2414888ebd08eda = L.marker(
+            [11.425006, -7.491478],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_8f7951377ddd4056880780d688207986 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2e2abcf8e72e46a88b31a639888cc12e = $(`<div id="html_2e2abcf8e72e46a88b31a639888cc12e" style="width: 100.0%; height: 100.0%;"><strong>UAV remote sensing fieldwork outside Bougouni</strong><br><em>Summer 2016, Winter 2017 and 2018 to Summer 2016, Winter 2017 and 2018</em></div>`)[0];
+                popup_8f7951377ddd4056880780d688207986.setContent(html_2e2abcf8e72e46a88b31a639888cc12e);
+            
+
+            marker_f961989f4e1a44abb2414888ebd08eda.bindPopup(popup_8f7951377ddd4056880780d688207986)
+            ;
+
+            
+        
+    
+        var marker_5101bc4f110744e2b01266bf04553e63 = L.marker(
+            [12.59948, -7.970796000000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_96d7c08265774a55b3de1cc41e1d8bc5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ed8a2f2b2a4447ebf93a0b94596c84c = $(`<div id="html_9ed8a2f2b2a4447ebf93a0b94596c84c" style="width: 100.0%; height: 100.0%;"><strong>UAV computer lab work at University of Bamako</strong><br><em>January 2018 to January 2018</em></div>`)[0];
+                popup_96d7c08265774a55b3de1cc41e1d8bc5.setContent(html_9ed8a2f2b2a4447ebf93a0b94596c84c);
+            
+
+            marker_5101bc4f110744e2b01266bf04553e63.bindPopup(popup_96d7c08265774a55b3de1cc41e1d8bc5)
+            ;
+
+            
+        
+    
+        var marker_ca7f7b0ad85e4975a43884a1318b6f12 = L.marker(
+            [32.230844, -110.950686],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_a8e181904dbf4869bf4773bf44bd8b77 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fedbdec9c93b46cd8daacf2f12d4f518 = $(`<div id="html_fedbdec9c93b46cd8daacf2f12d4f518" style="width: 100.0%; height: 100.0%;"><strong>Python Tutor at UA Library</strong><br><em>August 2019 to November 2019</em></div>`)[0];
+                popup_a8e181904dbf4869bf4773bf44bd8b77.setContent(html_fedbdec9c93b46cd8daacf2f12d4f518);
+            
+
+            marker_ca7f7b0ad85e4975a43884a1318b6f12.bindPopup(popup_a8e181904dbf4869bf4773bf44bd8b77)
+            ;
+
+            
+        
+    
+        var marker_91007469fd7341b5a35dd137f6a85b7e = L.marker(
+            [32.231644, -110.94936299999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_003edbece1794e1fb27241467aeff9db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf353774101f43d386cfe3cf100410fe = $(`<div id="html_cf353774101f43d386cfe3cf100410fe" style="width: 100.0%; height: 100.0%;"><strong>Girls Who Code Junior Facilitator</strong><br><em>September 2019 to November 2019</em></div>`)[0];
+                popup_003edbece1794e1fb27241467aeff9db.setContent(html_cf353774101f43d386cfe3cf100410fe);
+            
+
+            marker_91007469fd7341b5a35dd137f6a85b7e.bindPopup(popup_003edbece1794e1fb27241467aeff9db)
+            ;
+
+            
+        
+    
+        var marker_d257f5a077b841139f02065aaf3ec635 = L.marker(
+            [41.320105, -72.920643],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_f6c0abb350c94521b79510ae9e89cca7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0ac0658f115a4f8b9f1b92a29a0019b2 = $(`<div id="html_0ac0658f115a4f8b9f1b92a29a0019b2" style="width: 100.0%; height: 100.0%;"><strong>Geo-Computation and Environmental Analysis Workshop at YCRC</strong><br><em>2019-05-13 to 2019-05-17</em></div>`)[0];
+                popup_f6c0abb350c94521b79510ae9e89cca7.setContent(html_0ac0658f115a4f8b9f1b92a29a0019b2);
+            
+
+            marker_d257f5a077b841139f02065aaf3ec635.bindPopup(popup_f6c0abb350c94521b79510ae9e89cca7)
+            ;
+
+            
+        
+    
+        var marker_998a4da0595a4326885bdd730a860287 = L.marker(
+            [32.237953000000005, -110.947423],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_8d59b21d43734e82986d88d9b5685195 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_24d71de7d0114b6281c7f6c5acf9b507 = $(`<div id="html_24d71de7d0114b6281c7f6c5acf9b507" style="width: 100.0%; height: 100.0%;"><strong>Foundational Open Science Skills Camp at CyVerse</strong><br><em>2019-06-03 to 2009-06-07</em></div>`)[0];
+                popup_8d59b21d43734e82986d88d9b5685195.setContent(html_24d71de7d0114b6281c7f6c5acf9b507);
+            
+
+            marker_998a4da0595a4326885bdd730a860287.bindPopup(popup_8d59b21d43734e82986d88d9b5685195)
+            ;
+
+            
+        
+    
+        var marker_d66679c65f024b4babbae7b6a0257ec5 = L.marker(
+            [34.066862, -118.440997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_80933365da1b4480b82aafa2079362b4);
+        
+    
+            var popup_11514ff3ccd74120932a57ed4150c975 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_855d8eed1aac4cc3948f24e380824fda = $(`<div id="html_855d8eed1aac4cc3948f24e380824fda" style="width: 100.0%; height: 100.0%;"><strong>Volunteer undergraduate paleoclimatology research assistant for MacDonald Research Group and Lab</strong><br><em>June 2014 to October 2014</em></div>`)[0];
+                popup_11514ff3ccd74120932a57ed4150c975.setContent(html_855d8eed1aac4cc3948f24e380824fda);
+            
+
+            marker_d66679c65f024b4babbae7b6a0257ec5.bindPopup(popup_11514ff3ccd74120932a57ed4150c975)
+            ;
+
+            
+        
+    
+                
+
+                map_02867335ee4b4797b133cc7fadf55ca4.fitBounds(
+                    [[[34.017315999999994, -118.472072], [34.069179, -118.44161899999999], [33.778883, -118.11271200000002], [33.436167, -118.50588300000001], [33.778683, -118.11271200000002], [33.778683, -118.11301200000001], [34.007958, -118.489301], [32.232593, -110.94566999999999], [32.229949, -110.956216], [32.228128000000005, -110.955106], [21.569460999999997, -158.23167800000002], [34.099658000000005, -118.97979699999999], [12.349065, -8.401539999999999], [34.013251000000004, -118.46954099999999], [11.425006, -7.491478], [12.59948, -7.970796000000001], [32.230844, -110.950686], [32.231644, -110.94936299999999], [41.320105, -72.920643], [32.237953000000005, -110.947423], [34.066862, -118.440997]]],
+                    {}
+                    );
+            
+    
+
+        var tile_layer_e0f11d2caf434093aad6a7a641a35fdd = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+} );
+
+        var mini_map_3a654c512ea24c5890941c1b0f286d2e = new L.Control.MiniMap( tile_layer_e0f11d2caf434093aad6a7a641a35fdd,
+         {
+  "autoToggleDisplay": false,
+  "centerFixed": false,
+  "collapsedHeight": 25,
+  "collapsedWidth": 25,
+  "height": 50,
+  "minimized": false,
+  "position": "bottomright",
+  "toggleDisplay": false,
+  "width": 100,
+  "zoomAnimation": true,
+  "zoomLevelFixed": null,
+  "zoomLevelOffset": -5
+});
+        map_02867335ee4b4797b133cc7fadf55ca4.addControl(mini_map_3a654c512ea24c5890941c1b0f286d2e);
+
+        
+</script>
