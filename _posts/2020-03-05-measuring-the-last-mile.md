@@ -21,3 +21,6 @@ In light of the increasing ubiquity of micromobility services in cities, this pr
 * Is average trip length affected by plan type?
 * Do weekly and hourly ridership patterns vary by plan type?
 
+
+
+![average trip durations by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-trip-duration.png)
