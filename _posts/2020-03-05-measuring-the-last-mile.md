@@ -8,9 +8,6 @@ image: bike-stop-map.png
 
 ---
 
-# Measuring the Last Mile
-## Bike-Share Ridership Trends from LA County Metro
-
 Despite advances in public transportation infrastructure, intense road congestion and poor service schedules force many urban residents to adopt mixed-modes of transportation during a single trip out. Innovative ride-sharing applications have disrupted the transportation *status quo*, but ride-shares remain plagued by the same automotive gridlock experienced by private cars and public transit alike. The new wave of single-passenger transportation solutions aims to ease the burden of this so-called "[last mile](https://en.wikipedia.org/wiki/Last_mile_(transportation))" problem. 
 
 Communal, light-weight personal vehicles such as electric scooters, mopeds, and bicycles are popping up across major world cities. In many cases, residents are able to purchase these last-mile services from a variety of public and private providers (with short and long-term commitment options). As residents navigate the micromobility landscape, finding a suitable solution depends on factors including vehicle type, rental pricing, and availability. Commitment periods ranging from a few hours to a whole year provide a variety of options for consumers, but may not suit all lifestyles. A casual-but-regular weekend rider is left to purchase more expensive walk-up plans for their weekly rides as a monthly or yearly plan may not be justifiable. 
