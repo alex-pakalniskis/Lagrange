@@ -21,7 +21,7 @@ In light of the increasing ubiquity of micromobility services in cities, this pr
 * Is average trip length affected by plan type?
 * Do weekly and hourly ridership patterns vary by plan type?
 
-To better understand how the two user groups ("Subscriber" and "Customer" may ride differently, I calculated the average trip time for each group. Customers appear to take disproportionately longer bike rides than subscribers. 
+I surveyed a random sample of 100, 000 trips (50,000 each from "Subcriber" and "Customer") to better understand how riders use the service. Results suggest that customers take considerably longer rides than subscribers. 
 ![average trip durations by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-trip-duration.png)
 
 ![ride daytypes by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-ride-day-types.png)
