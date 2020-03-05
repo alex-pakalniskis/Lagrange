@@ -28,7 +28,7 @@ In light of the increasing ubiquity of micromobility services in cities, this pr
 ### Questions
 
 * Is average trip length affected by plan type?
-* Do weekly and hourly ridership patterns vary by plan type?
+* Do weekly ridership patterns vary by plan type?
 
 "Subscribers" comprise 64% of the total rides taken (1.8 million), with "Customers" riding the remaining 36%. On average, "Customer" bike trips are 3.5 times as long as "Subscriber" trips. Calculated using two random samples of 50,000 trips (one for each user type), this difference of 14 vs. 48 minutes roughly translates into 2.25 or 8 miles at a 10 miles per hour pace. While data privacy prevents more nuanced investigations in rider trip paths, these findings suggests that plan type may be a contributing factor determinging bike-share trip length. However, this is only speculation without knowing the distance traveled for each trip. Customers could very well stop-and-go, attaining an average cruising speed of 3 miles per hour while traveling 2.4 miles.  
  
