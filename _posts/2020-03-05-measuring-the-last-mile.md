@@ -10,7 +10,15 @@ image: bike-stop-map.png
 
 Despite advances in public transportation infrastructure, intense road congestion and poor service schedules force many urban residents to adopt mixed-modes of transportation during a single trip out. Innovative ride-sharing applications have disrupted the transportation *status quo*, but ride-shares remain plagued by the same automotive gridlock experienced by private cars and public transit alike. The new wave of single-passenger transportation solutions aims to ease the burden of this so-called "[last mile](https://en.wikipedia.org/wiki/Last_mile_(transportation))" problem. 
 
+![bike share in washington dc](https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Capital_Bikeshare_DC_2010_10_532.JPG/1280px-Capital_Bikeshare_DC_2010_10_532.JPG)
+
+**Source**: [Wikipedia, Last mile (transportation)](https://en.wikipedia.org/wiki/Last_mile_(transportation))
+
 Communal, light-weight personal vehicles such as electric scooters, mopeds, and bicycles are popping up across major world cities. In many cases, residents are able to purchase these last-mile services from a variety of public and private providers (with short and long-term commitment options). As residents navigate the micromobility landscape, finding a suitable solution depends on factors including vehicle type, rental pricing, and availability. Commitment periods ranging from a few hours to a whole year provide a variety of options for consumers, but may not suit all lifestyles. A casual-but-regular weekend rider is left to purchase more expensive walk-up plans for their weekly rides as a monthly or yearly plan may not be justifiable. 
+
+![metro-bike-share rider](https://11ka1d3b35pv1aah0c3m9ced-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/DSC01282.jpg)
+
+**Source**: [LA Metro Bike Share](https://bikeshare.metro.net/)
 
 Balancing private competitors, the needs of residents, and future development, public service providers are in a unique position in the micromobility market. However, as a pubic institution the main goal ought to be serving residents and fulfilling their needs. As open data initiatives proliferate across global municipalities, millions of light-vehicle trip logs from municipal service providers are being released to the public domain. While data are anonymized for rider privacy, trip records can provide valuable insights into the lifestyles and needs of shared light-vehicle users. Ultimately, this is an opportunity to apply data-driven insights to better serve residents with additional commitment plans that fit their lifestyles.
 
