@@ -30,10 +30,14 @@ In light of the increasing ubiquity of micromobility services in cities, this pr
 * Is average trip length affected by plan type?
 * Do weekly and hourly ridership patterns vary by plan type?
 
-On average, "Customer" bike trips are 3.5 times as long as "Subscriber" trips. Calculated using two random samples of 50,000 trips (one for each user type), this difference of 14 vs. 48 minutes roughly translates into 2.25 or 8 miles at a 10 miles per hour pace. These findings suggests that plan type may be a contributing factor determinging bike-share trip length. 
+"Subscribers" comprise 64% of the total rides taken (1.8 million), with "Customers" riding the remaining 36%. On average, "Customer" bike trips are 3.5 times as long as "Subscriber" trips. Calculated using two random samples of 50,000 trips (one for each user type), this difference of 14 vs. 48 minutes roughly translates into 2.25 or 8 miles at a 10 miles per hour pace. While data privacy prevents more nuanced investigations in rider trip paths, these findings suggests that plan type may be a contributing factor determinging bike-share trip length. However, this is only speculation without knowing the distance traveled for each trip. Customers could very well stop-and-go, attaining an average cruising speed of 3 miles per hour while traveling 2.4 miles.  
  
 ![average trip durations by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-trip-duration.png)
 
-Similarly, bike-share user types differ in when they choose to ride throughout the week. A survey of all bike trips (except those longer than 24 hours or outside Los Angeles boundaries) indicates that "Subscribers" tend to ride on weekdays (Monday-Friday), while "Customers" are more evenly split in riding weekdays or weekends. 
+A survey of all bike trips (except those longer than 24 hours or outside Los Angeles boundaries) indicates that "Subscribers" tend to ride on weekdays (Monday-Friday), while "Customers" are more evenly split in weekly riding habits. 
 
 ![ride daytypes by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-ride-day-types.png)
+
+These results suggest that riders could benefit from some different committment options than currently available. More specialized plans targetting lifestyles instead of time periods may better suit the needs of bike-share riders. Weekday-only plans, where riders don't have access to vehicles on weekends, would suit the numerous subscribers who only ride to or from work on weekdays. Similarly, a weekend-only plan could significantly reduce costs for "Customers" unable to justify current plans (monthly or annual) given their lifestyles. 
+
+While quantitative studies of anonymized data can provide insights into generalized rider trends, qualitative surveys of actual riders will benefit both the riders and the providers. Data-driven insights can optimize certain aspects of service, however it is critical to reiteraate the importance of user feedback. Data anonymity prevents analysis of "Customer" return frequency, so the true potential for conversion from "Customer" to "Subscriber" is unknown at this time. Converting even a small portion of the 35% of "Customers" could result additional profits, but none of it will be possible without asking the riders what they want.  
