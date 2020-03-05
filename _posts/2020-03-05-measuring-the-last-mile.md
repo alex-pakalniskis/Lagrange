@@ -24,3 +24,5 @@ In light of the increasing ubiquity of micromobility services in cities, this pr
 
 
 ![average trip durations by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-trip-duration.png)
+
+![ride daytypes by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-ride-day-types.png)
