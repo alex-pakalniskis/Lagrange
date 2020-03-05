@@ -7,7 +7,7 @@ tags: [micromobility,bike share, open data, pandas, GeoViews, geopandas, glob, n
 image: bike-stop-map.png
 
 ---
-*Los Angeles County Metropolitan Transportation Authority Bike Share Points (2016-2019)*
+*Los Angeles County Metropolitan Transportation Authority Bike-Share Docks (2016-2019)*
 
 Despite advances in public transportation infrastructure, intense road congestion and poor service schedules force many urban residents to adopt mixed-modes of transportation during a single trip out. Innovative ride-sharing applications have disrupted the transportation *status quo*, but ride-shares remain plagued by the same automotive gridlock experienced by private cars and public transit alike. The new wave of single-passenger transportation solutions aims to ease the burden of this so-called "[last mile](https://en.wikipedia.org/wiki/Last_mile_(transportation))" problem. 
 
@@ -30,8 +30,10 @@ In light of the increasing ubiquity of micromobility services in cities, this pr
 * Is average trip length affected by plan type?
 * Do weekly and hourly ridership patterns vary by plan type?
 
-Using two random samples of 50,000 trips (one for each user type), "Customer" bike trips are 3.5 times as long as "Subscriber" trips. A difference of 14 vs. 48 minutes is a considerable, roughly translating to 2.25 or 8 miles at a 10 miles per hour pace. This suggests that plan type may be a contributing factor to trip length.  
+On average, "Customer" bike trips are 3.5 times as long as "Subscriber" trips. Calculated using two random samples of 50,000 trips (one for each user type), this difference of 14 vs. 48 minutes roughly translates into 2.25 or 8 miles at a 10 miles per hour pace. These findings suggests that plan type may be a contributing factor determinging bike-share trip length. 
  
 ![average trip durations by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-trip-duration.png)
+
+Similarly, bike-share user types differ in when they choose to ride throughout the week. A survey of all bike trips (except those longer than 24 hours or outside Los Angeles boundaries) indicates that "Subscribers" tend to ride on weekdays (Monday-Friday), while "Customers" are more evenly split in riding weekdays or weekends. 
 
 ![ride daytypes by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-ride-day-types.png)
