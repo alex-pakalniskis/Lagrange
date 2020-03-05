@@ -22,14 +22,15 @@ Communal, light-weight personal vehicles such as electric scooters, mopeds, and 
 
 Balancing private competitors, the needs of residents, and future development, public service providers are in a unique position in the micromobility market. However, as a pubic institution the main goal ought to be serving residents and fulfilling their needs. As open data initiatives proliferate across global municipalities, millions of light-vehicle trip logs from municipal service providers are being released to the public domain. While data are anonymized for rider privacy, trip records can provide valuable insights into the lifestyles and needs of shared light-vehicle users. Ultimately, this is an opportunity to apply data-driven insights to better serve residents with additional commitment plans that fit their lifestyles.
 
-In light of the increasing ubiquity of micromobility services in cities, this project investigates the relationship between plan type and usage patterns in Los Angeles County's [Metropolitan Transportation Authority](https://www.metro.net/) bike-share network. While LA Metro divides pass holders into fairly nuanced categories (i.e. daily pass, monthly pass, etc.), cities such as [New York](https://www.citibikenyc.com/system-data) and [Chicago](https://www.divvybikes.com/system-data) employ a coarser approach to grouping users ("Customer" or "Subscriber"). I apply this common "Customer" vs "Subscriber" dichotomy for my analysis so that future comparative work may survey multiple cities or network types. 
+In light of the increasing ubiquity of micromobility services in cities, this project investigates the relationship between plan type and usage patterns in Los Angeles County's [Metropolitan Transportation Authority](https://www.metro.net/) bike-share network. While LA Metro divides pass holders into fairly nuanced categories (i.e. daily pass, monthly pass, etc.), cities such as [New York](https://www.citibikenyc.com/system-data) and [Chicago](https://www.divvybikes.com/system-data) employ a coarser approach to grouping users ("Customer" or "Subscriber"). I chose to apply this common "Customer" vs "Subscriber" dichotomy for my analysis so that future work may include results in comparative surveys of multiple cities or network types. 
 
 ### Questions
 
 * Is average trip length affected by plan type?
 * Do weekly and hourly ridership patterns vary by plan type?
 
-I surveyed a random sample of 100, 000 trips (50,000 each from "Subcriber" and "Customer") to better understand how riders use the service. Results suggest that customers take considerably longer rides than subscribers. 
+Using two random samples of 50,000 trips (one for each user type), "Customer" bike trips are 3.5 times as long as "Subscriber" trips. A difference of 14 vs. 48 minutes is a considerable, roughly translating to 2.25 or 8 miles at a 10 miles per hour pace.  
+ 
 ![average trip durations by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-trip-duration.png)
 
 ![ride daytypes by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-ride-day-types.png)
