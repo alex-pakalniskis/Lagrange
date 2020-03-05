@@ -4,7 +4,7 @@ title: "Measuring the Last Mile"
 author: "Alex Pakalniskis"
 categories: journal
 tags: [micromobility,bike share, open data, pandas, GeoViews, geopandas, glob, numpy, scipy, matplotlib, pyplot]
-image: 
+image: bike-stop-map.png
 
 ---
 
