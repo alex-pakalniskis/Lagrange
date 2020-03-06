@@ -38,6 +38,8 @@ A survey of all bike trips (except those longer than 24 hours or outside Los Ang
 
 ![ride daytypes by bike-share user type in LA Metro, 2016-2019](/assets/img/metro-bike-share-ride-day-types.png)
 
+### Current service options may not be an optimal fit for the lifestyles of riders
+
 These results suggest that riders could benefit from some different committment options than currently available. More specialized plans targetting lifestyles instead of time periods may better suit the needs of bike-share riders. Weekday-only plans, where riders don't have access to vehicles on weekends, would suit the numerous subscribers who only ride to or from work on weekdays. Similarly, a weekend-only plan could significantly reduce costs for "Customers" unable to justify current plans (monthly or annual) given their infrequent-but-cyclical usage. 
 
 Data anonymity prevents analysis of "Customer" return frequency, so the true potential for conversion from "Customer" to "Subscriber" is unknown at this time. Similarly, the total distance traveled during each trip is not avaialble at this time, but its release would clarify uncertainties in the data. Converting even a small portion of the 35% of "Customers" to "Subscribers" could result in additional profits for the provider and improved service for the riders, but none of it will be possible without asking the riders what they want. Quantitative studies of anonymized data can only provide generalized insights into rider trends. 
