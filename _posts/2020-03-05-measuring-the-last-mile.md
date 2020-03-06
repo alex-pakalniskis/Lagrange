@@ -3,7 +3,7 @@ layout: post
 title: "Measuring the Last Mile"
 author: "Alex Pakalniskis"
 categories: journal
-tags: [micromobility,bike share, open data, pandas, GeoViews, geopandas, glob, numpy, scipy, matplotlib, pyplot]
+tags: [micromobility,bike share, open data, python programming, data science, data visualization, LA Metro, los angeles, california, pandas, GeoViews, geopandas, glob, numpy, scipy, matplotlib, pyplot]
 image: bike-stop-map.png
 
 ---
@@ -40,4 +40,6 @@ A survey of all bike trips (except those longer than 24 hours or outside Los Ang
 
 These results suggest that riders could benefit from some different committment options than currently available. More specialized plans targetting lifestyles instead of time periods may better suit the needs of bike-share riders. Weekday-only plans, where riders don't have access to vehicles on weekends, would suit the numerous subscribers who only ride to or from work on weekdays. Similarly, a weekend-only plan could significantly reduce costs for "Customers" unable to justify current plans (monthly or annual) given their infrequent-but-cyclical usage. 
 
-Quantitative studies of anonymized data can provide insights into generalized rider trends, and additional studies should investigate additional rider attributes. However, qualitative surveys of actual riders will benefit both the riders and the providers. Data anonymity prevents analysis of "Customer" return frequency, so the true potential for conversion from "Customer" to "Subscriber" is unknown at this time. Similarly, the total distance traveled during each trip is not avaialble at this time, but it release would clarify uncertainties in the data. Converting even a small portion of the 35% of "Customers" to "Subscribers" could result in additional profits for the provider and improved service for the riders, but none of it will be possible without asking the riders what they want.  
+Data anonymity prevents analysis of "Customer" return frequency, so the true potential for conversion from "Customer" to "Subscriber" is unknown at this time. Similarly, the total distance traveled during each trip is not avaialble at this time, but its release would clarify uncertainties in the data. Converting even a small portion of the 35% of "Customers" to "Subscribers" could result in additional profits for the provider and improved service for the riders, but none of it will be possible without asking the riders what they want. Quantitative studies of anonymized data can only provide generalized insights into rider trends. 
+
+If you are interested in my methods or code, please visit [this Jupyter Notebook](https://nbviewer.jupyter.org/github/alex-pakalniskis/DS-Unit-1-Build/blob/master/notebooks/alex-pakalniskis-build-week-1.ipynb).
