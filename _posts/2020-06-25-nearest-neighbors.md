@@ -25,24 +25,59 @@ User preference for cannabis strain flavors and effects were simulated using the
 
 ### k-Nearest Neighbors Algorithm
 
-The k-Nearest Neighbor algorithm utilizes an analyst-supplied distance metrics to calculate the nearest (or most similar) data points to a given input. Distance is calculated in an n-dimensional hyperspace formed by the data attributes being analyzed. Furthermore, selection of a suitable distance metric often depends on the type of data under inspection. For this cannabis strain example, the k-Nearest Neighbors model will be used to return the k-most similar (nearest) strains to the simulated user preference inputs for flavor and effects.
+The k-Nearest Neighbor algorithm<sup>[18](http://scholarpedia.org/article/K-nearest_neighbor)</sup> utilizes an analyst-supplied distance metrics to calculate the nearest (or most similar) data points to a given input. Distance is calculated in an n-dimensional hyperspace formed by the data attributes being analyzed. Furthermore, selection of a suitable distance metric often depends on the type of data under inspection. For this cannabis strain example, the k-Nearest Neighbors model will be used to return the k-most similar (nearest) strains to the simulated user preference inputs for flavor and effects.
 
-A common choice for Nearest Neighbors metric is Euclidean distance, most suited for numeric attributes. Mathematically, the euclidean distance in n-dimensions for points p, q with i features is as follows:
+A common choice for Nearest Neighbors metric is Euclidean distance<sup>[19](https://en.wikipedia.org/wiki/Euclidean_distance)</sup>, most suited for numeric attributes. Mathematically, the euclidean distance in n-dimensions for points p, q with i features is as follows:
 
 $$d(\textbf{p,q}) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}$$
 
-Each of the `i` flavor and effect attributes would be compared for p and q. The cannabis strain data is not optimally suited for euclidean distance as strain attributes are stored as booleans. A more appropriate distance metric to model similary between strains would be the Jaccard index. Mathematically, the Jaccard index for p, q is represented as:
+Each of the `i` flavor and effect attributes would be compared for p and q. The cannabis strain data is not optimally suited for euclidean distance as strain attributes are stored as booleans. A more appropriate distance metric to model similary between strains would be the Jaccard index<sup>[20](https://en.wikipedia.org/wiki/Jaccard_index)</sup>. Mathematically, the Jaccard index for p, q is represented as:
 
 $$J(\textbf{p,q}) = \frac{\vert{p\cap{q}}\vert}{\vert{p}\vert + \vert{q}\vert - \vert{p\cap{q}}\vert}$$ 
 
-In english, the metric calculates the intersection of strain p and strain q attributes divided by the union of all strain p and q attributes.
+In our applied example, the metric calculates the intersection of strain p and strain q attributes divided by the union of all strain p and q attributes. My class implementation uses scipy<sup>[21](https://docs.scipy.org/doc/scipy/reference/spatial.distance.html)</sup> scientific computing library to calculate either distance metrics. 
 
 ## Results and Discussion
-My implementation
-Include code chunks
+### My Implementation
+Robust, heavily tested implementations of k-Nearest Neighbors can be found in the scikit-learn machine learning library<sup>[22](https://scikit-learn.org/stable/)</sup>, building this model from scratch was enlightening. A simple class was built with `fit` and `predict` methods loosely which loosely mirror those of scikit-learn model implementation. Shown below is an example usage returning the 10 nearest cannabis strains to a simulated user input:
 
-Scikit-learn implementation
-Include code chunks
+```bash
+foo@bar:~$ git clone https://github.com/alex-pakalniskis/NearestNeighbors.git
+foo@bar:~$ cd NearestNeighbors
+foo@bar:~$ pipenv shell
+foo@bar:~$ python3 examples/example-usage.py
+                   ids distances
+221    Peyote Critical       0.7
+281  Strawberry Banana  0.818182
+166           Larry OG  0.818182
+297  Super Silver Haze  0.818182
+89           Diablo OG  0.818182
+90          Diamond OG  0.818182
+28           Apollo 13  0.818182
+292      Sundae Driver  0.818182
+290       Sugar Cookie  0.818182
+172         Lemon Drop  0.818182
+```
 
-## Conclusion
+### Scikit-Learn Implementation
+
+The polar opposite of a solo coding project, the scikit-learn machine learning library is the collaborative effort of thousands of dedicated open-source contributors from around the world. The `NearestNeighbors` implementation<sup>[23](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html#sklearn.neighbors.NearestNeighbors)</sup> in scikit-learn eschews the typical `fit/predict` paradigm, instead opting for a `fit/kneighbors` pattern. Shown below are cannabis strain recommendation results from simulated user preference input identical to those used with my implementation. 
+
+```bash
+foo@bar:~$ python3 examples/scikitlearn-implementation.py
+              Name  Distance
+0  Peyote Critical       0.7
+1             FPOG  0.818182
+2    Exodus Cheese  0.818182
+3          Afgooey  0.818182
+4         Larry OG  0.818182
+5    Grease Monkey  0.818182
+6      Jet Fuel OG  0.818182
+7        Harlequin  0.818182
+8      Dutch Treat  0.818182
+9       Jilly Bean  0.818182
+```
+
+## Discussion and Conclusion
+Comparison of outputs
 Brief closing thoughts
