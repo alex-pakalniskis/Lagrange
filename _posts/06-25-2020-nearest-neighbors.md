@@ -4,7 +4,7 @@ title: "Build a Lo-Fi Cannabis Strain Recommendation System with Python"
 author: "Alex Pakalniskis"
 categories: journal
 tags: [cannabis, recommendation, strain, nearest neighbors, euclidean distance, jaccard index, data science, python, pandas, scipy, scikit-learn]
-image: bike-stop-map.png 
+image: cannabis.png 
 
 ---
 ## Introduction
