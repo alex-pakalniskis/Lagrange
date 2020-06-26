@@ -31,7 +31,7 @@ $$d(\textbf{p,q}) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}$$
 
 Jaccard index for binary attributes in n-dimensions for p, q
 
-$$J(\textbf{p,q}) = \frac{\vert{p\cap{q}}\vert}{{\vert{p\cup{q}}\vert}} = \frac{\vert{p\cap{q}}\vert}{\vert{p}\vert + \vert{q}\vert - \vert{p\cap{q}}\vert}$$
+$$J(\textbf{p,q}) = \frac{\vert{p\cap{q}}\vert}{\vert{p}\vert + \vert{q}\vert - \vert{p\cap{q}}\vert}$$
 
 
 ## Results and Discussion
