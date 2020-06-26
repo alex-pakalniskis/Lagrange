@@ -39,11 +39,12 @@ In our applied example, the metric calculates the intersection of strain p and s
 
 ## Results and Discussion
 ### My Implementation
-Robust, heavily tested implementations of k-Nearest Neighbors can be found in the scikit-learn machine learning library<sup>[22](https://scikit-learn.org/stable/)</sup>, building this model from scratch was enlightening. A simple class was built with `fit` and `predict` methods loosely which loosely mirror those of scikit-learn model implementation. Shown below is an example usage returning the 10 nearest cannabis strains to a simulated user input:
+Robust, heavily tested implementations of k-Nearest Neighbors can be found in the scikit-learn machine learning library<sup>[22](https://scikit-learn.org/stable/)</sup>, building this model from scratch was enlightening. A simple class was built with `fit` and `predict` methods loosely which loosely mirror those of scikit-learn model implementation. Shown below is an example usage run on Ubuntu 18.04 returning the 10 nearest cannabis strains to a simulated user input:
 
 ```bash
 foo@bar:~$ git clone https://github.com/alex-pakalniskis/NearestNeighbors.git
 foo@bar:~$ cd NearestNeighbors
+foo@bar:~$ pipenv install
 foo@bar:~$ pipenv shell
 foo@bar:~$ python3 examples/example-usage.py
                    ids distances
@@ -79,5 +80,6 @@ foo@bar:~$ python3 examples/scikitlearn-implementation.py
 ```
 
 ## Discussion and Conclusion
-Comparison of outputs
-Brief closing thoughts
+While the cannabis strain nearest to the simulated user input was the same for both `NearestNeighbors` implementations, most of the other 9 strain recommendations varied considerably. Larry OG was the only other common strain between the two recommendations. These results suggest that the two implementations likely differ in some critical ways. The parameter-rich scikit-learn class likely employs default values which my implementation lacks. Additionally, there may be a large number of strains which lie 0.81818182 away from the user input. Future projects may look into comparing different boolean metrics or more nuanced recommendation scheme to optimize k-Nearest Neighbors-powered cannabis strain suggestions. Likewise, assigning some hierarchical relationships between attributes (Lemon as a subset of Citrus) may assist with improving relevance of suggestions.
+
+For questions or comments related to this blog, feel free to contact me at `alexpakalniskis3@gmail.com`.
