@@ -14,22 +14,25 @@ Despite on-going debates, innovations in recommendation algorithms remains a top
 
 ## Methods
 ### Cannabis Strain Data
-Medicinal and recreational cannabis legislation are slowly gaining approval across US states. While cannabis remains illegal (and punishable by imprisonment) at the federal-level, many state cannabis industries are booming<sup>[11](https://www.ocregister.com/2020/03/10/california-passes-1-billion-in-cannabis-tax-revenue-two-years-after-launching-legal-market/)</sup>. To meet the growing demand for consumers and retailers, cannabis tech companies such as Weedmaps<sup>[12](https://weedmaps.com/)</sup> and Leafly<sup>[13](https://www.leafly.com/)</sup> provide information services related to cannabis strains and products, and dispensary inventory. While many services are proprietary, much of this cannabis data is publically available through web APIs<sup>[14](https://en.wikipedia.org/wiki/Web_API)</sup>. For education purposes only, cannabis strain data were scraped from the Weedmaps Cannabis Strain API<sup>[15](https://api-g.weedmaps.com/wm/v1/strains)</sup> in early May 2020. A helper class was written to facilitate the scraping process and another class for processing the API JSON data into a machine learning-friendly CSV format. Code to replicate the scraping and data cleaning process is available on GitHub<sup>[16](https://github.com/Build-Week-Med-Cabinet-2-MP/bw-med-cabinet-2-ml/tree/master/code)</sup>.
+![strain wheel](https://resize.mantisadnetwork.com/mantis-ad-network/image/fetch/w_500,q_75,c_limit,f_jpg/http://uploads.medicaljane.com/wp-content/uploads/2016/06/flavorwheel.png)
+Medicinal and recreational cannabis legislation are slowly gaining approval across US states. While cannabis remains illegal (and punishable by imprisonment) at the federal-level, many state cannabis industries are booming<sup>[11](https://www.ocregister.com/2020/03/10/california-passes-1-billion-in-cannabis-tax-revenue-two-years-after-launching-legal-market/)</sup>. To meet the growing demand for consumers and retailers, cannabis tech companies such as Weedmaps<sup>[12](https://weedmaps.com/)</sup> and Leafly<sup>[13](https://www.leafly.com/)</sup> provide information services related to cannabis strains and products, and dispensary inventory. While many services are proprietary, much of this cannabis data is publically available through web APIs<sup>[14](https://en.wikipedia.org/wiki/Web_API)</sup>. For education purposes only, cannabis strain data were scraped from the Weedmaps Cannabis Strain API<sup>[15](https://api-g.weedmaps.com/wm/v1/strains)</sup> in early May 2020. The Weedmaps data set contains over 50 flavor and effect attributes (boolean features) for more than 300 cannabis strains. A helper class was written to facilitate the scraping process and another class for processing the API JSON data into a machine learning-friendly CSV format. Code to replicate the scraping and data cleaning process is available on GitHub<sup>[16](https://github.com/Build-Week-Med-Cabinet-2-MP/bw-med-cabinet-2-ml/tree/master/code)</sup>.
 
 ### Simulating User Preference Inputs
+![user input](https://public-media.interaction-design.org/images/ux-daily/56e2cfdabdb9e.jpg)
+User preference for cannabis strain flavors and effects were simulated using the numpy array manipulation library<sup>[17](https://numpy.org/)</sup>. A random seed was set for reproducibility. See `examples` for the full code implementation<sup>[18](https://github.com/alex-pakalniskis/NearestNeighbors/tree/master/examples)</sup>.
 
 ### k-Nearest Neighbors Algorithm
 ![knn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/KnnClassification.svg/200px-KnnClassification.svg.png)
 
-Distance metrics: Euclidiean for numeric and Jaccard for boolean. Include some LaTeX for pretty math formulas.
+The k-Nearest Neighbor algorithm utilizes an analyst-supplied distance metrics to calculate the nearest (or most similar) data points to a given input. Distance is calculated in an n-dimensional hyperspace formed by the data attributes being analyzed. Furthermore, selection of a suitable distance metric often depends on the type of data under inspection. For this cannabis strain example, the k-Nearest Neighbors model will be used to return the k-most similar (nearest) strains to the simulated user preference inputs for flavor and effects.
 
-Euclidean distance for numeric attributes in n-dimensions for points p, q
+A common choice for Nearest Neighbors metric is Euclidean distance, most suited for numeric attributes. Mathematically, the euclidean distance in n-dimensions for points p, q with i features is as follows:
 
 $$d(\textbf{p,q}) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}$$
 
-Jaccard index for binary attributes in n-dimensions for p, q
+The cannabis strain data is not optimally suited for euclidean distance as strain attributes are stored as booleans. A more appropriate distance metric for this example would be the Jaccard index. Mathematically, the Jaccard index for p, q is:
 
-$$J(\textbf{p,q}) = \frac{\vert{p\cap{q}}\vert}{\vert{p}\vert + \vert{q}\vert - \vert{p\cap{q}}\vert}$$
+$$J(\textbf{p,q}) = \frac{\vert{p\cap{q}}\vert}{\vert{p}\vert + \vert{q}\vert - \vert{p\cap{q}}\vert}$$ 
 
 
 ## Results and Discussion
