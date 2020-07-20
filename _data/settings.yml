@@ -14,7 +14,6 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github', link: 'https://www.github.com/alex-pakalniskis'}
-- {icon: 'instagram', link: 'https://instagram.com/alexpakalniskis'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/alexpakalniskis3/'}
 - {icon: 'envelope', link: 'mailto:alexpakalniskis3@gmail.com'}
 - {icon: 'rss-square', link: '/feed.xml'}
